@@ -7,7 +7,7 @@ function calcAverageCalories(days) {
     const AverageCalories = allCalories / days.length;
     return AverageCalories;
   } else {
-    return `Недостатньо інформації :)`
+    return 0;
   }
 }
 
